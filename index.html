@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <script src="service/callrestapi.js"></script>
     <body>
 
         <h2>My First JavaScript</h2>
@@ -7,6 +8,10 @@
         <button type="button"
             onclick="document.getElementById('demo').innerHTML = Date()">
             Click me to display Date and Time.</button>
+
+            <button type="button"
+            onclick="callRestApi()">
+            Click me to Call Rest API</button>
 
         <p id="demo"></p>
 
