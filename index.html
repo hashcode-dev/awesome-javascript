@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
     <script src="service/callrestapi.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <body>
 
         <h2>My First JavaScript</h2>
 
-        <button type="button"
-            onclick="document.getElementById('demo').innerHTML = Date()">
-            Click me to display Date and Time.</button>
+        <div id="spinner"></div>
+
+        <div>
+            <button type="button"
+                onclick="document.getElementById('demo').innerHTML = Date()">
+                Click me to display Date and Time.</button>
 
             <button type="button"
-            onclick="callRestApi()">
-            Click me to Call Rest API</button>
+                onclick="callRestApi()">
+                Click me to Call Rest API</button>
+        </div>
 
-        <p id="demo"></p>
+        <div id="data">
+            <p id="demo"></p>
+        </div>
 
     </body>
 </html>
