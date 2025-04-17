@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <script src="service/callrestapi.js"></script>
-    <script src="service/dateUtil.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <body>
+<script src="service/callrestapi.js"></script>
+<script src="service/dateUtil.js"></script>
+<script src="jsfunctions/jsfunctiondemo.js"></script>
+<link rel="stylesheet" href="css/style.css">
 
-        <h2>My First JavaScript</h2>
+<body>
 
-        <div id="spinner"></div>
+    <h2>My First JavaScript</h2>
 
-        <div>
-            <button type="button"
-                onclick="dateUtil()">
-                Click me to display Date and Time.</button>
+    <div id="spinner"></div>
 
-            <button type="button"
-                onclick="callRestApi()">
-                Click me to Call Rest API</button>
-        </div>
+    <div>
+        <button type="button" onclick="dateUtil()">
+            Click me to display Date and Time.</button>
 
-        <div>
-            <br>
-        </div>
+        <button type="button" onclick="callRestApi()">
+            Click me to Call Rest API</button>
 
-        <div id="data">
-            <p id="demo"></p>
-        </div>
+        <button type="button" onclick="multiplyTwoNumbers(5, 4)">
+            Click me to multiply two numbers</button>
+    </div>
 
-    </body>
+    <div>
+        <br>
+    </div>
+
+    <div id="data">
+        <p id="demo"></p>
+    </div>
+
+</body>
+
 </html>
