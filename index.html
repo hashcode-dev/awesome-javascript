@@ -4,6 +4,7 @@
 <script src="service/dateUtil.js"></script>
 <script src="jsfunctions/jsfunctiondemo.js"></script>
 <script src="jsobjects/jsobjectsdemo.js"></script>
+<script src="objectdisplay/objectdisplaydemo.js"></script>
 <link rel="stylesheet" href="css/style.css">
 
 <body>
@@ -11,29 +12,39 @@
     <h2>My First JavaScript</h2>
 
     <div id="spinner"></div>
-
     <div>
         <button type="button" onclick="dateUtil()">
             Click me to display Date and Time.</button>
-
+    </div>
+    <br/>
+    <div>
         <button type="button" onclick="callRestApi()">
             Click me to Call Rest API</button>
-
+    </div>
+    <br/>
+    <div>
         <button type="button" onclick="multiplyTwoNumbers(5, 4)">
             Click me to multiply two numbers</button>
-
+    </div>
+    <br/>
+    <div>
         <button type="button" onclick="jsObjectDemo()">
             JS Object Method Demo</button>
     </div>
-
+    <br/>
     <div>
-        <br>
+        <button type="button" onclick="displayObjectV1()">
+            Object Display Demo V1</button>
     </div>
-
+    <br/>
+    <div>
+        <button type="button" onclick="displayObjectV2()">
+            Object Display Demo V2</button>
+    </div>
+    <br/>
     <div id="data">
         <p id="demo"></p>
     </div>
-
 </body>
 
 </html>
